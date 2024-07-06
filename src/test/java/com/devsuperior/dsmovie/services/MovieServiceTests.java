@@ -47,7 +47,7 @@ public class MovieServiceTests {
 	void setUp() throws Exception {
 
 		movieEntity = MovieFactory.createMovieEntity();
-		movieDTO = MovieFactory.createMovieDTO(movieEntity);
+		movieDTO = MovieFactory.createMovieDTO();
 		page = new PageImpl<>(List.of(movieEntity));
 		movieName = "Test Movie";
 

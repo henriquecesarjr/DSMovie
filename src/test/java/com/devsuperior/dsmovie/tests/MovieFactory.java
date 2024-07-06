@@ -15,7 +15,4 @@ public class MovieFactory {
 		return new MovieDTO(movie);
 	}
 
-	public static MovieDTO createMovieDTO(MovieEntity entity) {
-		return new MovieDTO(entity);
-	}
 }
